@@ -10,7 +10,7 @@
 }
 
 .navBar h1 {
-    font-size: 1.5rem;
+    font-size: 32px;
 }
 
 .navBar ul {
@@ -27,16 +27,16 @@
 }
 
 @media (max-width: 768px) {
-    .navBar {
+    .mobileNavBar {
         flex-direction: column;
         align-items: flex-start;
     }
 
-    .navBar ul {
+    .mobileNavBar ul {
         flex-direction: column;
     }
 
-    .navBar ul li {
+    .mobileNavBar ul li {
         margin-right: 0;
         margin-bottom: 10px;
     }
@@ -50,6 +50,7 @@ footer {
     padding: 20px;
     border-radius: 20px 20px 0 0;
     color: #80868A;
+    font-size: 12px;
     -webkit-box-shadow: 0px -4px 3px rgba(50, 50, 50, 0.75);
     -moz-box-shadow: 0px -4px 3px rgba(50, 50, 50, 0.75);
     box-shadow: 0px -4px 3px rgba(226, 226, 226, 0.75);
@@ -70,4 +71,61 @@ footer a {
 
 .active {
     color: #42afd2;
+}
+
+.sectionHeader {
+    font-size: 20px;
+}
+
+.sectionText {
+    font-size: 12px;
+}
+
+.quickContact {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    background: #D6EFF7;
+}
+
+.quickContact {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    background: #D6EFF7;
+}
+
+.resourceSection {
+    padding: 20px;
+}
+
+.resourceContainer {
+    margin-top: 20px;
+}
+
+.resourceLink {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 20px;
+}
+
+.resourceImg {
+    width: 104px;
+    min-width: 104px;
+    height: 78px;
+    display: inline-block;
+    background-color: #D9D9D9;
+    margin-right: 10px;
+}
+
+.resourceDescription {
+    flex-grow: 1;
+    text-wrap: wrap;
+    font-size: 14px;
+}
+
+hr {
+    margin: 20px 0;
+    border: 0;
+    border-top: 1px solid #D9D9D9;
 }
