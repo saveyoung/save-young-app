@@ -6,7 +6,7 @@ export default function resources() {
     return (
         <main>
             <Navigation/>
-            <div>
+            <div className="page">
                 <div className="quickContact">
                     <h1 className="sectionHeader">Keeping contacts handy!</h1>
                     <p className="sectionText">Important Hotline numbers to call for quick assistance can be life saving. Here is the information about Local authorities, National authorities and NGO’s near you!</p>
@@ -29,6 +29,7 @@ export default function resources() {
                     </div>
                 </div>
             </div>
+            <div className="clear"></div>
             <Footer/>
         </main>  
     );
