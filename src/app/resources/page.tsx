@@ -22,7 +22,7 @@ export default function resources() {
                             <ResourceRecord
                                 img='/images/socialMediaRisks.jpeg'
                                 imgAlt="Picture of teens on their phones."
-                                description="Social media risks: Safeguarding children's online experience"
+                                description="Social media risks: Safeguarding children&apos;s online experience"
                                 source="Mayo Clinic Health System"
                             />
                         </Link>
@@ -30,7 +30,7 @@ export default function resources() {
                             <ResourceRecord
                                 img='/images/kidsAsInfluencers.png'
                                 imgAlt="Picture of teens posing for a photo."
-                                description="The dangers of parents sharing their children’s lives on social media"
+                                description="The dangers of parents sharing their children&apos;s lives on social media"
                                 source="PBS"
                             />
                         </Link>
@@ -38,7 +38,7 @@ export default function resources() {
                             <ResourceRecord
                                 img='/images/childrenAtSchool.png'
                                 imgAlt="Picture of teens on their phones."
-                                description="Combatting Human Trafficking in America's Schools"
+                                description="Combatting Human Trafficking in America&apos;s Schools"
                                 source='U.S. Department of Education'
                             />
                         </Link>
