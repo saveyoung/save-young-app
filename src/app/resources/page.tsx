@@ -13,7 +13,7 @@ export default function resources() {
                     <p className="sectionText">Important Hotline numbers to call for quick assistance can be life saving. Here is the information about Local authorities, National authorities and NGO’s near you!</p>
                     <Link href="https://www.google.com/search?q=police+station+near+me" className="contactLink">Local Authorities</Link>
                     <Link href="https://humantraffickinghotline.org/en/contact" className="contactLink">National Hotlines</Link>
-                    <Link href="https://www.google.com/search?q=ngo+near+me" className="contactLink">NGO's near you</Link>
+                    <Link href="https://www.google.com/search?q=ngo+near+me" className="contactLink">NGO&apos;s near you</Link>
                 </div>
                 <div className="resourceSection">
                     <h1 className="sectionHeader">Know more, protect more</h1>
