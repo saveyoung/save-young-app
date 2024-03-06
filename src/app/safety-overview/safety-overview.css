@@ -1,4 +1,6 @@
-body {
+.safetyOverview {
+    width: 100%;
+    height: 100%;
     background-image: linear-gradient(180deg, #4E5FD2 0%, #28316C 100%);
     background-attachment: fixed;
 }
