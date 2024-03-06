@@ -22,7 +22,7 @@ export default function Home() {
       </div>
       <div className="homeContainer">
         <div className="profile-box">
-          <Link href="rosiedmsafety.html">
+          <Link href="/safety-overview">
             <div className="profile-section">
               <div className="profile-main">
                 <Image className="profile-pic" width={60} height={60} src="/images/rosieJenkins.png" alt="" />
@@ -59,7 +59,7 @@ export default function Home() {
           </Link>
         </div>
         <div className="profile-box">
-          <Link href="rosiedmsafety.html">
+          <Link href="/safety-overview">
             <div className="profile-section">
               <div className="profile-main">
                 <Image className="profile-pic" width={60} height={60} src="/images/williamJenkins.png" alt="" />
