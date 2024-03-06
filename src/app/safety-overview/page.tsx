@@ -11,7 +11,7 @@ import Footer from '../footer';
 
 ChartJS.register(ArcElement, Tooltip, Legend);
 
-export const data = {
+const data = {
   labels: ['Females', 'Males'],
   datasets: [
     {
@@ -30,7 +30,7 @@ export const data = {
   ],
 };
 
-export const options = {
+const options = {
   plugins: {
     legend: {
       labels: {
