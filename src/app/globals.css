@@ -140,3 +140,240 @@ hr {
     border: 0;
     border-top: 1px solid #D9D9D9;
 }
+
+.homeContainer {
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+}
+
+.profile-box {
+    background: #4e5fd2;
+    border-radius: 20px;
+    margin-top: 10px;
+    padding: 30px;
+    margin-bottom: 50px;
+    color: white;
+    min-width: 450px;
+    position: relative;
+    box-shadow: 0px 0px 14px 0px rgba(0, 0, 0, 0.25);
+    margin-right: 20px;
+  }
+
+  @media (max-width: 768px) {
+    .homeContainer {
+      padding: 20px;
+      display: flex;
+      flex-direction: column;
+    }
+
+    .profile-box {
+      min-width: 100%;
+      margin-right: 0;
+      min-width: 350px;
+    }
+  }
+  
+  .profile-pic {
+    border: 2px solid white;
+    border-radius: 50%;
+  }
+  
+  .instagram-icon {
+    position: absolute;
+    bottom: 75%;
+    left: 85%;
+  }
+  
+  .account-safety-info {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 25px;
+  }
+  
+  .circle {
+    position: relative;
+  }
+  
+  .safety-column {
+    position: relative;
+    background-color: white;
+    margin-top: 10px;
+    padding-top: 10px;
+    padding-right: 24px;
+    padding-left: 24px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 110px;
+    height: 80px;
+}
+
+.safe {
+    color: #0bcd07;
+    padding-top: 5px;
+    font-size: 16px;
+    width: fit-content;
+}
+
+.safe-vector {
+    align-self: center;
+}
+  
+  .safety-column-two {
+    position: relative;
+    background-color: white;
+    margin-top: 10px;
+    padding-top: 10px;
+    padding-right: 24px;
+    padding-left: 24px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+  }
+
+  .safe {
+    color: #0bcd07;
+    padding-top: 5px;
+    font-size: 16px;
+    width: fit-content;
+  }
+
+  .safe-vector {
+    align-self: center;
+  }
+  
+  .alert-vector {
+    display: flex;
+    margin-bottom: -18px;
+    margin-left: 48px;
+  }
+  
+  .alert-number {
+    font-size: 32px;
+    color: #e01f1f;
+    margin-bottom: -5px;
+  }
+  
+  .alert-word {
+    font-size: 16px;
+    color: #e01f1f;
+    padding-top: none;
+  }
+  
+  .percentage-number {
+    position: absolute;
+    right: 50%;
+    top: 50%;
+    transform: translate(50%, -50%);
+  }
+  
+  .dash-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .profile-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .profile-main {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .alert-number {
+    text-align: center;
+  }
+  
+  .alert-word {
+    text-align: center;
+  }
+  
+  .profile-info {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .user-full-name {
+    font: 16px;
+    font-weight: bold;
+  }
+  
+  .user-name {
+    font-size: 12px;
+  }
+  
+  .follower-count {
+    font-size: 12px;
+  }
+  
+  .user-full-name-two {
+    font: 16px;
+    font-weight: bold;
+    margin-left: -10px;
+  }
+  
+  .user-name-two {
+    font-size: 12px;
+    margin-left: -50px;
+  }
+  
+  .follower-count-two {
+    font-size: 12px;
+    margin-left: -40px;
+  }
+  
+  .alert {
+    color: #f20808;
+    position: absolute;
+    top: -20px;
+    right: 30%;
+  }
+  
+  .profile-two-info {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+    margin-top: -3px;
+  }
+  
+  .dash-box {
+    text-decoration: none;
+  }
+  
+  .notification-alert {
+    color: red;
+    position: relative;
+  }
+  
+  .top-notification {
+    background: #f8e4e0;
+    padding: 25px 30px 25px 30px;
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .notification-message {
+    display: inline-block;
+    text-align: left;
+    padding-left: 10px;
+    font-weight: 300;
+  }
+
+  .rosie-profile-info {
+    text-align: left;
+    color: white;
+  }
+  
+  .page-instagram-icon {
+    color: white;
+  }
