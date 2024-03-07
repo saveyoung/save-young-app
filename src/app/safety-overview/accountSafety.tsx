@@ -62,7 +62,7 @@ export default function AccountSafety() {
         </header>
         <div className="safety-heading">
             <div className="safety-message">
-              <p className="safety-title">DM Safety</p>
+              <p className="safety-title">Account Safety</p>
               <p className="safety-sentence">
                 Based on the public accounts that follow this profile, this account is safe.
               </p>
