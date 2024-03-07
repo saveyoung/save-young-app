@@ -16,7 +16,7 @@ export default function Footer() {
   const pathname = usePathname();
 
   return (    
-    <footer className="footer">
+    <footer className="fixedFooter">
       <nav>
         <ul>
           <li className={pathname == "/resources" ? "active" : ""}>

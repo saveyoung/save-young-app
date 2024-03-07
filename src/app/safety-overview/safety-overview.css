@@ -40,3 +40,265 @@
         margin-left: 30px;
     }
   }
+.carousel-item {
+    display: inline;
+}
+
+.btn {
+    background-color: #4E5FD2;
+    color: white;
+    border: none;
+    padding: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+}
+  
+  /*540*/
+  @media (min-width: 431px) {
+    #safety-rating {
+      position: relative;
+      background-color: white;
+      margin-top: 10px;
+      padding-top: 10px;
+      border-radius: 10px;
+      max-width: 20%;
+      display: block;
+      margin-left: 367px;
+    }
+  
+    .page-alert-vector {
+      display: flex;
+      margin-bottom: -18px;
+      margin-left: 45px;
+    }
+  
+    #account-page-buttons {
+      display: flex;
+      justify-content: space-evenly;
+      padding-top: 24px;
+    }
+  
+    .page-instagram-icon {
+      display: flex;
+      justify-content: flex-end;
+    }
+  }
+  
+  @media (min-width: 768px) {
+    .safety-rating {
+      position: relative;
+      background-color: white;
+      margin-top: 10px;
+      padding-top: 10px;
+  
+      border-radius: 10px;
+      max-width: 20%;
+      display: block;
+      margin-left: 550px;
+    }
+  
+    .page-alert-vector {
+      display: flex;
+      margin-bottom: -18px;
+      margin-left: 73px;
+    }
+  
+    #account-page-buttons {
+      display: flex;
+      justify-content: space-evenly;
+      padding-top: 24px;
+    }
+  }
+  
+  @media (min-width: 1024px) {
+    #safety-rating {
+      position: relative;
+      background-color: white;
+      margin-top: 10px;
+      padding-top: 10px;
+  
+      border-radius: 10px;
+      max-width: 20%;
+      display: block;
+      margin-left: 800px;
+    }
+  
+    .page-alert-vector {
+      margin-left: 70px;
+    }
+  }
+  
+  @media (min-width: 1280px) {
+    #safety-rating {
+      position: relative;
+      background-color: white;
+      margin-top: 10px;
+      padding-top: 10px;
+  
+      border-radius: 10px;
+      max-width: 20%;
+      display: block;
+      margin-left: 1000px;
+    }
+  
+    .page-alert-vector {
+      margin-left: 98px;
+    }
+  }
+  
+  #profile-box {
+    color: white;
+    text-decoration: none;
+  }
+  
+  #profile-box:hover {
+    text-decoration: none;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: none;
+  }
+  
+  .rosie-profile-info {
+    text-align: left;
+    color: white;
+    display: flex;
+    margin-left: 80px;
+    margin-top: -65px;
+    margin-bottom: 32px;
+  }
+  
+  .iconContainer {
+    margin-left: 20px;
+  }
+
+  .page-instagram-icon {
+    color: white;
+  }
+  
+  .safety-title {
+    text-align: left;
+    color: white;
+    font-weight: 450;
+    font-size: 16px;
+    margin-bottom: 6px;
+  }
+  
+  .safety-sentence {
+    text-align: left;
+    color: white;
+    font-size: 13px;
+    font-weight: 300;
+  }
+  
+  .summary-title {
+    font-size: 16px;
+    font-weight: 450;
+    color: white;
+    margin-bottom: 6px;
+    text-align: left;
+  }
+  
+  .summary-paragraph {
+    font-size: 13px;
+    font-weight: 300;
+    color: white;
+    text-align: left;
+  }
+  
+  .safety-parameters {
+    text-decoration: none;
+  }
+  
+  hr {
+    background-color: white;
+  }
+
+  .safetyFirstRow {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  .safety-heading {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 60px;
+  }
+
+  .safety-message {
+    margin-right: 10px;
+  }
+  
+  .parameter-details {
+    text-align: left;
+    margin-left: 53px;
+    font-size: 11px;
+    font-weight: 300;
+  }
+  
+  .parameter-title {
+    margin-bottom: 3px;
+    margin-top: 20px;
+    font-size: 14px;
+    font-weight: 450;
+    margin-left: 25px;
+  }
+  
+  .parameter-alert {
+    display: flex;
+    margin-bottom: -38px;
+  }
+  
+  .parameter-description {
+    margin-left: 25px;
+  }
+  
+  .not-found {
+    color: #b6b6b6;
+  }
+  
+  .found {
+    color: #fff;
+  }
+  
+  .feedback-button {
+    padding: 10px 40px;
+    /*margin-top: 24px;
+    margin-right: 50px;*/
+    border-radius: 4px;
+    border: 1px solid #fff;
+    color: #fff;
+    background: #303b81;
+  }
+  
+  .noted-button {
+    padding: 10px 40px;
+    /*margin-top: 24px;
+    margin-left: 15px;*/
+    color: #303b81;
+    background: #fff;
+    border-radius: 4px;
+    border: 1px solid #303b81;
+  }
+  
+  #account-page-buttons {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 24px;
+  }
+  
+  .checkmark {
+    color: #303b81;
+  }
+
+  .dmSafetyHeader {
+    display: flex;
+    flex-direction: row;
+  }
